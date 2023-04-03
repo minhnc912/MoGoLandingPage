@@ -1,14 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Mogo</title>
-</head>
-<body>
-    
-    <script src="index.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <!-- fontawesome CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- main CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <title>Mogo</title>
+    </head>
+    <body>
+        <div>
+            <div class="header">
+                <!-- navbar -->
+                <nav class="navbar navbar-expand-lg navbar-dark col-12">
+                    <a
+                        class="navbar-brand font-weight-bold col-5 d-flex justify-content-center"
+                        href="#"
+                        >MoGo</a
+                    >
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ml-5" id="navbarNav">
+                        <ul class="navbar-nav col-7 position-relative">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#About"
+                                    >About
+                                    <span class="sr-only">(current)</span></a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </li>
+                            <li class="line"></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- welcome message -->
+                <div
+                    class="banner d-flex flex-column align-items-center justify-content-center"
+                >
+                    <h3>Creative Template</h3>
+                    <h1>Welcome <br />to mogo</h1>
+                    <div class="banner_line"></div>
+                    <div class="banner_more">Learn more</div>
+                    <div class="banner_slide-button d-flex">
+                        <ul class="d-flex flex-column banner_slide-item active">
+                            <li class="banner_sline-line"></li>
+                            <li class="slide_list-item">01 intro</li>
+                        </ul>
+                        <ul class="d-flex flex-column banner_slide-item">
+                            <li class="banner_sline-line"></li>
+                            <li class="slide_list-item">02 work</li>
+                        </ul>
+                        <ul class="d-flex flex-column banner_slide-item">
+                            <li class="banner_sline-line"></li>
+                            <li class="slide_list-item">03 about</li>
+                        </ul>
+                        <ul class="d-flex flex-column banner_slide-item">
+                            <li class="banner_sline-line"></li>
+                            <li class="slide_list-item">04 contacts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="body d-flex flex-column">
+                <div id="about">
+                    <div
+                        class="about_header d-flex flex-column align-items-center"
+                    >
+                        <h3>What we do</h3>
+                        <h1>story about us</h1>
+                    </div>
+                    <div class="about_line"></div>
+                    <p class="about_content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impedit doloribus eum suscipit deserunt quo consequatur
+                        voluptas rerum, ipsam illo eaque, enim quos labore unde,
+                        inventore harum sint dicta at dolores?
+                    </p>
+
+                    <div class="about_image">
+
+                    </div>
+
+                    <div class="about_data">
+                        <div class="row">
+                            <div
+                                class="col-12 data_list d-flex justify-content-center"
+                            >
+                                <div class="col-2 data_list-item">
+                                    <h1>42</h1>
+                                    <p>web design projects</p>
+                                </div>
+                                <div class="col-2 data_list-item">
+                                    <h1>123</h1>
+                                    <p>happy client</p>
+                                </div>
+                                <div class="col-2 data_list-item">
+                                    <h1>15</h1>
+                                    <p>award winner</p>
+                                </div>
+                                <div class="col-2 data_list-item">
+                                    <h1>99</h1>
+                                    <p>cup of coffee</p>
+                                </div>
+                                <div class="col-2 data_list-item">
+                                    <h1>24</h1>
+                                    <p>members</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer d-flex justify-content-center">
+                © 2016 MoGo free PSD template by <strong>Laaqiq</strong>
+            </div>
+        </div>
+
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+        <script src="index.js"></script>
+    </body>
 </html>
